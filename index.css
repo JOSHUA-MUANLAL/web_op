@@ -317,7 +317,7 @@ span.bi:hover{
   div.card{
     width:30%; 
     height:40vh;
-    margin-left:0;
+    margin-left:0%;
     display:inline-block;
     border-radius: 10px;
    }
