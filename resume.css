@@ -1,0 +1,105 @@
+
+body{
+    margin:0%;
+}
+div.about{
+    background-color: #1a1527;
+    font-family:ROG fonts;
+    font-size: 3vmin;
+    width:100%;
+   
+    height:100vh;
+  
+  }
+  
+  table.table{
+      border-color:#1a1527;
+      background-color:#1a1527;
+      font-family: Roboto Mono,Courier New,Courier,monospace!important;;
+      margin-top:10vh;
+      width:100%;
+      font-size:2vmin;
+  }
+  span.key{
+      
+      color:red;
+      font-size:2vmin;
+      
+  }
+  span.name{
+    color:aqua;
+  }
+  span.stat{
+      
+      color:white;
+  }
+  span.word{
+      
+      color:green;
+  
+  }
+  
+  
+  
+  
+  td{height:0.1vh;
+      padding:0%;
+      margin:0%;
+      width:100%;
+      font-weight:bold;
+      color:white;
+      font-size:1.8vmin;
+  }
+  td.i{
+     
+      width:1vmin;
+  }
+  td.stat{
+      
+      color:white;
+      padding-left:10vw;
+  }
+  span.word1{
+     
+      color:orangered;
+  }
+  span.this{
+    color:yellow;
+  }
+  span.function{
+    color:green
+  }
+  span.return{
+    color:blueviolet;
+  }
+  span.dict{
+    color:chartreuse;
+  }
+  span.string{
+    color:magenta
+  }
+
+
+  @media (max-width: 800px){
+    td{
+        font-size: 1.2vmax;
+    }
+    table.table{
+        font-size:1.2vmax;
+    }
+    span.key{
+        font-size:1.5vmax;
+    }
+  }
+
+  @media (max-width: 600px){
+    td{
+        font-size: 1vmax;
+    }
+    table.table{
+        font-size:1vmax;
+    }
+    span.key{
+        font-size:1.2vmax;
+    }
+  }
